@@ -1,9 +1,8 @@
 /*mobile*/
-@media (min-width: 425px) {
+@media (min-width: 1px) {
     .descriptions, .nav-bar {
         display: none;
-    }
-    }
+    }  
     .productos-box {
         width: 90%;
         margin: 10px auto;
@@ -17,14 +16,43 @@
     }
     .off {
         padding: none;
+    }
+    .productosDiv {
+        height: 60px;
+    }
+    .my-image {
+        width: 90%;
+    }
+    .logo-click {
+        width: 50%;
+    }
+    /*LOGIN*/
+    .form-bar {
+        padding: 5px 30px;
+        border: solid 1px #ddd;
+        border-radius: 4px;
+        background-color: white;
+        color: #333;
+        width: 80%;
+        height: 33px;
+    }
+    .section-form {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        background-color: #ebebeb;
+        align-items: center;
+        padding: none;
+    }
 }
 
 /*tablet*/
 @media (min-width: 768px) {
     .productos-box {
         flex: 0 0 47%;
-        margin: 10px;
         width: 100%;
+        box-shadow: 0 0 5px;
     }
     .conteiner-1 {
         display: flex;
@@ -37,13 +65,23 @@
         flex-wrap: wrap;
     }    
     .div-header {
-        width: 66%;
+        width: 100%;
     }
     .headLines {
         width: 33%;
         align-items: center;
         display: flex;
         justify-content: center;
+    }
+    .logo-click {
+        width: 33%;
+    }
+    .my-image {
+        height: 100px;
+    }
+    .search-bar3 {
+        width: 33%;
+        align-items: center;
     }
     .burger-nav {
         display: none;
@@ -60,7 +98,34 @@
         margin: 0 5px;
     }
     .descriptions {
-        display: contents;
+        display: flex;
+    }
+    .off, .prices {
+        margin-bottom: 24px;
+    }
+    .productosDiv {
+        height: 90px;
+    }
+    .body-login {
+        background-color: white;
+    }
+    .login-header {
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .form-bar {
+        padding: 5px 30px;
+        border: solid 1px #ddd;
+        border-radius: 4px;
+        background-color: white;
+        color: #333;
+    }
+    .continuar-buttom {
+        color: #fff;
+        background-color: #3483fa;
+        padding: 10px 30px;
+        border-color: transparent;
+        border-radius: 4px;
     }
 }
 
@@ -68,7 +133,7 @@
 /*pc*/
 @media (min-width:1024px) {
     .productos-box {
-        flex: 0 0 23%;
+        flex: 0 0 22%;
         margin: 10px;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -77,4 +142,32 @@
     .burger-nav {
         display: none;
     }
-}
+    .search-bar3 {
+        display: flex;
+        justify-content: center;
+    }
+    .conteiner-1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .body-login {
+        background-color: white;
+    }
+    .login-header {
+        padding-bottom: 30px;
+    }
+    .section-form {
+        width: 50%;
+    }
+    .form-bar {
+        padding: 5px 30px;
+        border: solid 1px #ddd;
+        border-radius: 4px;
+        background-color: white;
+        color: #333;
+    }
+    .login-footer {
+        background-color: #ebebeb;
+        height: 100px;
+    }
+}    

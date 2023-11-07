@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --color-yellow: #EAC926;
+    --color-blue: #03264C;
+    --color-cian: #1259c3;
+    --color-gray: #666;
+    --color-lightgray: #ebebeb;
+    --color-green: #39b54a;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    font-size: 12px;
+}
+header {
+    background-color: #EAC926;
+}
+/*HEADER*/
+.list-1 {
+    list-style-type: none;
+    margin: 20px 20px;
+}
+.list-u {
+    padding-right: 15px;
+}
+.nav-bar {
+    width: 100%;
+    margin-top: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+}
+.h3-sections {
+    text-align: center;
+    font-size: 24px;
+}
+.div-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.my-image {
+    width: 50%;
+    height: 100px;
+}
+.search-bar {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    color: #333;
+    outline: none;
+}
+.search-bar3 {
+    width: 50%;
+}
+.search-bar:focus {
+    border-color: #777;
+    background-color: #fff;
+    color: #333;
+}
+
+.search-button {
+    padding: 12px 10px;
+    margin: 8px 0;
+    color: #666;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.search-button:hover {
+    background-color: #45a049;
+}
+.cuerpoDeTexto {
+    font-size: 12px;
+    text-align: center;
+}
+
+.headLines {
+    text-align: center;
+    font-weight: normal;
+}
+.prices {
+    font-size: 18px;
+    width: 30%;
+}
+.off {
+    font-size: 16px;
+    width: 70%;
+    color: #39b54a;
+    padding-left: 25px;
+}
+.descriptions {
+    font-size: 16px;
+    color: #666;
+}
+.descriptions-div {
+    border: solid 1px red;
+}
+.burger-nav {
+    padding: 10px;
+}
+.burger-menu {
+    background-color: #1259c3;
+    color: #ebebeb;
+    width: 6%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+fa-5x {
+    width: 90%;
+}
+.conteiner-1 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+
+
+}
+.productosDiv {
+    border-top: 1px solid #ebebeb;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: white;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+    flex-wrap: wrap;
+    position: relative;
+}
+.productos-box {
+    margin-top: 10px;
+    width: 25%;
+}
+
+.producto-img {
+    width: 100%;
+    height: auto;
+}
+
+.truck-verde {
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+footer{
+    background-color: white;
+}
+.h4-footer {
+    text-align: center;
+    color: #666;
+}
+.icons {
+    text-align: center;
+    font-size: 32px;
+    color: #1259c3;
+}
+.prices-off {
+    display: flex;
+    align-items: center;
+}
+main {
+    width: 100%;
+}
+section {
+    width: 100%;
+}

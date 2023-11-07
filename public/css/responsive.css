@@ -1,0 +1,80 @@
+/*mobile*/
+@media (min-width: 425px) {
+    .descriptions, .nav-bar {
+        display: none;
+    }
+    }
+    .productos-box {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .productos-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .off {
+        padding: none;
+}
+
+/*tablet*/
+@media (min-width: 768px) {
+    .productos-box {
+        flex: 0 0 47%;
+        margin: 10px;
+        width: 100%;
+    }
+    .conteiner-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }    
+    .div-header {
+        width: 66%;
+    }
+    .headLines {
+        width: 33%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .burger-nav {
+        display: none;
+    }
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -10px;
+    }
+    .list-1 {
+        display: flex;
+    }
+    .list-u {
+        margin: 0 5px;
+    }
+    .descriptions {
+        display: contents;
+    }
+}
+
+
+/*pc*/
+@media (min-width:1024px) {
+    .productos-box {
+        flex: 0 0 23%;
+        margin: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .burger-nav {
+        display: none;
+    }
+}
